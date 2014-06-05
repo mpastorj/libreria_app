@@ -14,6 +14,8 @@ public class Libreria_bd {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        VentanaPrincipal v = new VentanaPrincipal();
+        v.setLocationRelativeTo(null);
+        v.setVisible(true);
     }
 }
